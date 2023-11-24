@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>student regist</title>
+  <link rel="icon" href="https://imgur.com/7IcYKjm.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Student Form Registration</h1>
+
+  <form>
+    <div class="form-element">
+      <label class="form-element-label" for="fname">First Name</label>
+      <div class="form-element-input">
+        <input type="text" id="fname" required>
+      </div>
+    </div>
+
+    <div class="form-element">
+      <label class="form-element-label" for="lname">Last Name</label>
+      <div class="form-element-input">
+        <input type="text" id="lname" required>
+      </div>
+    </div>
+
+    <div class="form-element">
+      <label class="form-element-label" for="oschool">Origin School</label>
+      <div class="form-element-input">
+        <select id="oschool">
+          <option>High School</option>
+          <option>Vocational High School</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-element">
+      <label class="form-element-label">Operation System</label>
+      <div class="form-element-input">
+        <input type="radio" id=windows name="os">
+        <label for="windows">Windows</label>
+        <input type="radio" id=linux name="os">
+        <label for="linux">Linux</label>
+      </div>
+    </div>
+
+    <div class="form-element">
+      <label class="form-element-label biodata-label" for="biodata">Biodata</label>
+      <div class="form-element-input">
+        <textarea id="biodata" rows="6"></textarea>
+      </div>
+    </div>
+
+    <div class="form-element">
+      <input class="form-element-submit" type="submit" value="Kumpul">
+      <input class="form-element-reset" type="reset" value="Hapus">
+    </div>
+  </form>
+
+</body>
+
+</html>

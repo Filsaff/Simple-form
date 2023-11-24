@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #000000
+}
+
+body {
+  background-color: #e8e8e8;
+  font-family: Cochin;
+  text-align: center;
+  padding-top: 100px;
+}
+
+form {
+  width: 50%;
+  border-radius: 10px;
+  border: #403f3f solid 2px;
+  background: #ffd500;
+  padding: 20px;
+  margin: 25px auto;
+}
+
+.form-element {
+  margin: 15px;
+}
+
+.form-element-label {
+  width: 30%;
+  text-align: right;
+  display: inline-block;
+}
+
+.form-element-input {
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.form-element-input input[type="radio"]:first-of-type {
+  margin-left: 0px;
+}
+
+.form-element-input input[type="radio"] {
+  cursor: pointer;
+}
+
+.biodata-label {
+  vertical-align: top;
+}
+
+.form-element-input input[type="text"],
+.form-element-input select,
+.form-element-input textarea {
+  padding: 5px;
+  border: 1px solid #74787b;
+  border-radius: 5px;
+}
+
+.form-element-submit {
+  margin-top: 10px;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: none;
+  background: #cfb1d3;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-element-submit:hover {
+  background: #bc6fc8;
+}
+
+.form-element-reset {
+  margin-top: 10px;
+  padding: 10px 20px;
+  margin-left: 5px;
+  border: none;
+  background: #cea1b1;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-element-reset:hover {
+  background: #d77597;
+}
